@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmiSchedularService.Api", "EmiSchedularService.Api.csproj", "{074087EC-1DCC-410B-8DB3-DEE607BD8335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmiSchedularService.Application", "..\EmiSchedularService.Application\EmiSchedularService.Application.csproj", "{770315D7-DB8F-4485-92A9-AE6ACEA21A00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmiSchedularService.Domain", "..\EmiSchedularService.Domain\EmiSchedularService.Domain.csproj", "{02EFBE0F-8E8A-4F21-A4F8-E9646B40B043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmiSchedularService.Infrastructure", "..\EmiSchedularService.Infrastructure\EmiSchedularService.Infrastructure.csproj", "{2F1B0829-EBAC-454A-8E03-70874046163F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{074087EC-1DCC-410B-8DB3-DEE607BD8335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074087EC-1DCC-410B-8DB3-DEE607BD8335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074087EC-1DCC-410B-8DB3-DEE607BD8335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074087EC-1DCC-410B-8DB3-DEE607BD8335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{770315D7-DB8F-4485-92A9-AE6ACEA21A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{770315D7-DB8F-4485-92A9-AE6ACEA21A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{770315D7-DB8F-4485-92A9-AE6ACEA21A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{770315D7-DB8F-4485-92A9-AE6ACEA21A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02EFBE0F-8E8A-4F21-A4F8-E9646B40B043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02EFBE0F-8E8A-4F21-A4F8-E9646B40B043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02EFBE0F-8E8A-4F21-A4F8-E9646B40B043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02EFBE0F-8E8A-4F21-A4F8-E9646B40B043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F1B0829-EBAC-454A-8E03-70874046163F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F1B0829-EBAC-454A-8E03-70874046163F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F1B0829-EBAC-454A-8E03-70874046163F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F1B0829-EBAC-454A-8E03-70874046163F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FACE28C7-531C-41A6-876A-5B1A3AA49E2B}
+	EndGlobalSection
+EndGlobal
